@@ -3,8 +3,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `First Gatsby Site`,
+    title: `Ben Boskin Website`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }

@@ -8,6 +8,10 @@
   color: rebeccapurple;
 }
 
+.footing {
+  color: olive;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
