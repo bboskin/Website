@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import PicGrid from '../components/pic_grid'
 
 const CollagePage = () => {
   return (
@@ -10,6 +10,8 @@ const CollagePage = () => {
      <p> TODO talk about collaging philosophy </p>
 
      <p> TODO add collages </p>
+     <PicGrid>
+     </PicGrid>
     </Layout>
   )
 }

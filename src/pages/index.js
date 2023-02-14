@@ -10,7 +10,7 @@ const IndexPage = () => {
       <p>Thanks for checking out the site. Here's a photo of me as a bright-eyed 22 year old.</p>
       <StaticImage
         alt="Oops."
-        src="../images/headshot.jpg"
+        src="../images/headshot.jpeg"
       />
     </Layout>
   )
