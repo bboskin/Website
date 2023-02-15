@@ -1,16 +1,17 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import watching from '../images/watching_it_burn.jpeg'
-import selfportrait from '../images/self_portrait.jpeg'
-import holdingon from '../images/holding_on.jpeg'
-import amongthestars from '../images/among_the_stars.jpeg'
-
+import watching from '../images/collages/watching_it_burn.jpeg'
+import selfportrait from '../images/collages/self_portrait.jpeg'
+import holdingon from '../images/collages/holding_on.jpeg'
+import amongthestars from '../images/collages/among_the_stars.jpeg'
+import apples from '../images/collages/apples.jpeg'
+import bird from '../images/collages/bird.jpeg'
 const MAX_HEIGHT = "500"
 const Flower = () => {
   return (
     <div>
     <StaticImage
-      src="../images/flowers.jpeg"
+      src="../images/collages/flowers.jpeg"
       alt="Oops."
       height = {MAX_HEIGHT}
     />
@@ -25,7 +26,7 @@ const Boat = () => {
   return (
     <div>
     <StaticImage
-      src="../images/out_on_a_boat.jpeg"
+      src="../images/collages/out_on_a_boat.jpeg"
       alt="Oops."
       height = {MAX_HEIGHT}
     />
@@ -55,7 +56,7 @@ const AtThePark = () => {
   return (
     <div>
     <StaticImage
-      src="../images/at_the_park.jpeg"
+      src="../images/collages/at_the_park.jpeg"
       alt="Oops."
       height = {MAX_HEIGHT}
     />
@@ -70,7 +71,7 @@ const Entrance = () => {
   return (
     <div>
     <StaticImage
-      src="../images/entrance.jpeg"
+      src="../images/collages/entrance.jpeg"
       alt="Oops."
       height = {MAX_HEIGHT}
     />
@@ -100,7 +101,7 @@ const Road = () => {
   return (
     <div>
     <StaticImage
-      src="../images/road.jpeg"
+      src="../images/collages/road.jpeg"
       alt="Oops."
       height = {MAX_HEIGHT}
     />
@@ -141,6 +142,36 @@ const WatchingItBurn = () => {
   )
 }
 
+const Apples = () => {
+  return (
+    <div>
+    <img
+      src={apples}
+      alt="Oops."
+      height = {MAX_HEIGHT}
+    />
+    <h4> "For Joshua pt. 1" </h4>
+    </div>
+
+
+  )
+}
+
+const Bird = () => {
+  return (
+    <div>
+    <img
+      src={bird}
+      alt="Oops."
+      height = {MAX_HEIGHT}
+    />
+    <h4> "For Joshua pt. 2" </h4>
+    </div>
+
+
+  )
+}
+
 
 
 export {
@@ -152,5 +183,7 @@ export {
   HoldingOn,
   Road,
   SelfPortrait,
-  WatchingItBurn
+  WatchingItBurn,
+  Bird,
+  Apples
 }

@@ -10,7 +10,9 @@ import {
   OutOnABoat,
   Road,
   SelfPortrait,
-  WatchingItBurn
+  WatchingItBurn,
+  Apples,
+  Bird,
 } from './pic.js'
 import {
  container,
@@ -21,8 +23,10 @@ const PicGrid = () => {
     <div className={container}>
     <Flower> </Flower>
     <AmongTheStars> </AmongTheStars>
-    <AtThePark> </AtThePark>
+    <Apples> </Apples>
+    <Bird> </Bird>
     <Entrance> </Entrance>
+    <AtThePark> </AtThePark>
     <HoldingOn> </HoldingOn>
     <Boat> </Boat>
     <Road> </Road>

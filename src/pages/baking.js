@@ -1,25 +1,56 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { StaticImage} from 'gatsby-plugin-image'
+import { StaticImage } from 'gatsby-plugin-image'
 
 // Step 2: Define your component
 const BakingPage = () => {
   return (
-    <Layout pageTitle="Yeah, I've baked a fair amount.">
+    <Layout pageTitle="Baking? Why?">
       <p> My mom was a baker only before I was born,
-      but the legends of her bringing home bags of day-olds lived
-      on throughout my entire childhood. When I was deciding to leave
-      grad school and was trying to answer the question: "What's the
-      opposite of theoretical computer science research?" the idea
-      of baking came to me as a way to truly turn my life upside-down,
-      which it did. The hours, the tangibility of the results of my
-      labor, combined with the crazy kooks I worked with, showed me a life
-      very different than the one I had known as a student.
+      but the legends of that era of her life, and her
+      bringing home bags of day-olds lived on throughout my entire
+      childhood. When I was deciding to leave grad school I was
+      looking for the opposite of theoretical computer science. The idea
+      to bake came to me with the excitement of something that would
+      turn my life upside-down, which it did. The hours,
+      the tangibility of the results of my labor, combined with the
+      crazy kooks I worked with, showed me a life very different than
+      the one I had known as a student.
       </p>
 
-      <p> TODO baker pic</p>
+      <p> At my first baking job, in Somerville, MA, I got
+      really into making laminated pastries, i.e. croissants, pain au chocolate,
+      etc. The process is tedious and tiresome, and requires devotion to absurd
+      concepts: a pliable block of butter; a honeycomb of buttery dough;
+      microscopic layers. I was going through my first break up with a
+      live-in girlfriend then. Sometimes we need something to be devoted to.
+      </p>
 
-      <p> TODO croissant recipe as a racket function</p>
+      <p>
+      Here's a picture of some of my co-workers and I from that first job at
+      Forge Baking Company.
+      </p>
+      <StaticImage
+        src="../images/forge_fam.jpeg"
+        alt="Syd, you fucked up"
+      />
+
+      <p>
+      ....and here are some beautiful, raw croissants I made one day
+      </p>
+      <StaticImage
+        src="../images/croissants.jpeg"
+        alt="overproofed"
+        width="500"
+      />
+      <p> Finally, I've refined an at-home croissant recipe which
+      I've made a few times, adapting from the Forge recipe (don't tell Jen!).
+      There are no instructions. And, to really make things difficult,
+      it's just a Racket script with a function that gives you a recipe
+      if you tell it how many batons you want to make. I recommend
+      mixing one baton at a time if you are using a standard home KitchenAid.
+      Here you go, have fun! </p>
+      <a href='../files/croissants.rkt' download>Click to download "recipe"!</a>
 
     </Layout>
   )
