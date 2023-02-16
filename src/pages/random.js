@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const RandomPage = () => {
@@ -17,7 +16,7 @@ const RandomPage = () => {
      <StaticImage
        src="../images/hanabi.jpeg"
        alt="bomb went off"
-       width = "500"
+       width = "300"
      />
 
 
@@ -27,7 +26,7 @@ const RandomPage = () => {
      </p>
 
      <a href="https://www.dylanchords.com/" target="_blank">
-     Excellent Bob Dylan song chord resource
+     Excellent Bob Dylan chord resource
      </a>
 
      <p>
@@ -49,9 +48,9 @@ const RandomPage = () => {
      Cari's page
      </a>
 
-     <p> TODO top k albums </p>
-
      <p> TODO message me for mental health stuff </p>
+
+     <p> TODO top k albums </p>
 
     </Layout>
   )

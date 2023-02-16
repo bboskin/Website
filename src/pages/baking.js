@@ -23,7 +23,7 @@ const BakingPage = () => {
       etc. The process is tedious and tiresome, and requires devotion to absurd
       concepts: a pliable block of butter; a honeycomb of buttery dough;
       microscopic layers. I was going through my first break up with a
-      live-in girlfriend then. Sometimes we need something to be devoted to.
+      live-in partner then. Sometimes we need something to be devoted to.
       </p>
 
       <p>

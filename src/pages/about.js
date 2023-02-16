@@ -48,7 +48,7 @@ const AboutPage = () => {
       </p>
 
       <p> Here's a picture of me with my wonderful mother, Trudi, and my
-      ex-girlfriend Lane, I'll let you guess who is who. I lived with Lane in
+      ex-partner Lane, I'll let you guess who is who. I lived with Lane in
       Boston and we broke up but ended on good terms so it's totally not weird
       to have a picture of them here. These two people know me more intimately
       than anyone, so if you are unsatisfied with the information on this site,
