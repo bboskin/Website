@@ -18,4 +18,12 @@ const TalkPlayerB = () => {
   )
 }
 
-export {TalkPlayerA, TalkPlayerB}
+const HouseShow = () => {
+  return (
+    <div>
+    <YouTube videoId='jCUYc9rJkis' />
+    </div>
+  )
+}
+
+export {TalkPlayerA, TalkPlayerB, HouseShow}
