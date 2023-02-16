@@ -23,7 +23,7 @@ const MusicPage = () => {
      pretty well. I like a raw but big sound, and use guitars, synthesizers,
      vocals, and drums to get there. I write, play, and produce all by myself
      for my solo stuff. Here's a track off my bandcamp, click
-     the linik if you want to hear more!</p>
+     the link if you want to hear more!</p>
 
      <Space> </Space>
 

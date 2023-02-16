@@ -9,6 +9,18 @@ const RandomPage = () => {
      <p>Neither of us knows why you came here to my
      'random stuff' page, but we're about to find out.</p>
 
+     <p> Have you ever played the game Hanabi? You should, it's sick.
+     Collaborative card game, very fun and challenging. playing with the same
+     people over time develops richness, and playing with new people is fun
+     has presents different challenges. CONVENTIONS!
+     </p>
+     <StaticImage
+       src="../images/hanabi.jpeg"
+       alt="bomb went off"
+       width = "500"
+     />
+
+
      <p> One of my long-time favorite artists to learn songs by is Bob Dylan,
      maybe you know of him. In case you came to this page hoping I'd be able to link you
      to some killer Dylan chords, here you go!
@@ -29,7 +41,7 @@ const RandomPage = () => {
      <p>
      Also her site has these cool shapes (I think they are meant to be piles
      of rocks but it's pretty abstract, see for yourself) that change slightly
-     throughout the website, and they are pretty mind-blowing. TL;DR the site
+     throughout the website, and it's pretty mind-blowing. TL;DR the site
      is worth a visit.
      </p>
 
