@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Space from '../components/bandcamp'
 
 const MusicPage = () => {
   return (
@@ -11,6 +12,7 @@ const MusicPage = () => {
      <p> TODO talk about solo stuff</p>
 
      <p> TODO bandcamp embed</p>
+     <Space> </Space>
 
 
     </Layout>
