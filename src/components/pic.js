@@ -6,7 +6,7 @@ import holdingon from '../images/collages/holding_on.jpeg'
 import amongthestars from '../images/collages/among_the_stars.jpeg'
 import apples from '../images/collages/apples.jpeg'
 import bird from '../images/collages/bird.jpeg'
-const MAX_HEIGHT = "500"
+const MAX_HEIGHT = "400"
 const Flower = () => {
   return (
     <div>

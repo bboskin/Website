@@ -6,81 +6,86 @@ import {TalkPlayerA, TalkPlayerB} from '../components/videoplayer'
 
 const ResearchPage = () => {
   return (
-    <Layout pageTitle="Yeah I was like... really into functional programming for a while">
+    <Layout pageTitle="Computer Science Research Projects">
 
      <h3> Research at Indiana University</h3>
      <p> In my time at IU, I was appropriately influenced
-     by the stong research group in the are of Programming Languages. I grew
-     enamored with functional programming and the Scheme language, as well
+     by the research group in the area of Programming Languages. I grew
+     enamored with functional programming and the Scheme language (more specifically with Racket), as well
      as dependent types and logic programming. I worked on two research projects
-     during my senior year, which tied these latter two interests together</p>
+     during my senior year, both of which tied these latter two interests together.
+     </p>
 
-     <p> The first project I worked on was done with advising from Jeremy Siek.
+     <h4> Implicit Arguments for Pie </h4>
+     <p> The first project was done with advising from Jeremy Siek.
      We added the feature of implicit arguments to the minimal
      dependently-typed language Pie, which I was
      learning about in a course I was taking from Dan Friedman. Pie is a
      language created by Dan and then-postdoc David Thrane Christiansen, which
-     is described wonderfully in the book The Little Typer. When writing
-     in dependendently-typed languages, function calls become tiresome because
-     polymorphic functions (and most interesting functions we write are
-     polymorphic) require many boiler-plate arguments to be instantiated. For
-     example, to use a function that appends two vectors that hold type A and
-     have lengths k and j, in addition to passing the two vectors, one must pass
-     A, k, and j. Implicit arguments provide ease to calling such functions,
-     and allow the user to tell the interpreter when arguments should be
-     (fairly) trivially discovered simply from the other arguments provided,
-     and/or the context in which the function is called.
-     </p>
-
-     <p> Using the relational language miniKanren to infer values that satisfied
-     type constraints at function application, Jeremy and I added implicit
-     arguments to Pie. Below is the short talk that I gave at a 'PL
-     Wonks' meeting, talking about this work. My talk begins at 15:16.</p>
+     is described in the wonderful 'little' book, The Little Typer.
+     Below is the short talk that I gave at a 'PL Wonks' meeting,
+     talking about this work. My talk begins at 15:16.</p>
      <TalkPlayerB> </TalkPlayerB>
 
-     <p> The other research project I worked on began in the spring of my
-     senior year and bled into the summer, a summer where I spent many days
+     <h4> Implementing Pie's typesystem and evaluation as a relation </h4>
+     <p> The other research project began in the spring of my
+     senior year and bled into the summer, a now-for-me legendary summer where I spent many days
      holed up with Dan Friedman at his home office, working on revising his &
-     David's book, and working on our project. Our goal, in essence, was
-     straightforward: Faithfully implement the paper-and-pencil type system of
-     Pie as a relation, and ensure that the resulting relation behaved as
-     expected. Because of the size of the type system, however, as well as
-     a few certain rules which were essential but computationally problematic,
-     we wound up needing to perform a more specialized kind of search, and
-     this led us to design a new conditional framework for the language
-     miniKanren. For those interested, here is our paper which describes the
+     David's book, as well as working on our project, as the two were intertwined.
+     Our goal, in essence, was
+     straightforward, but the problem we posed to ourselves turned out to be
+     more sophisticated than we expected, and the summer ended up offering
+     a nice research story. For those interested, here is our paper which describes the
      details, and below that is the talk I gave at the Scheme and Functional
      Programming Workshop, hosted by ICFP, in 2018.</p>
 
-     <a href="http://schemeworkshop.org/2018/Boskin_Ma_Christiansen_Friedman.pdf" target="_blank">
+     <a href="http://schemeworkshop.org/2018/Boskin_Ma_Christiansen_Friedman.pdf"
+        target="_blank">
      SFPW Paper
      </a>
 
      <TalkPlayerA> </TalkPlayerA>
+
+     <p> The two projects I have described above both leveraged the tool miniKanren,
+     a minimal yet powerful prolog-like logic programming language. Learn more
+     about it <a href="https://minikanren.org" target="_blank">here</a>.
+
+     </p>
 
      <h3> Research at Northeastern University </h3>
 
      <p>  Despite my short time at NU, I was able to work on a cool research idea,
      working with fellow PhD student Andrew Walter, and faculty members Pete
      Manolios and Seth Cooper. Together, we designed and implemented a 'game'
-     where users reasoned about short programs, particularly ones constisting
-     of a single iterative loop performing arithmetic on numbers,
-     with the goal of using the aggregate of submitted statements to prove
-     correctness properties about those programs. There had been prior work by
-     researchers (DeRossi et. al; CHI 2018) creating such a game, and in that
-     game the decision was made to hide the programs themselves and simplify
-     the task by only showing trace logs of all the numbers at each iteration
-     of the loop. Our game, however, showed the code, with our hypothesis being
-     that by showing code we would receive higher-quality statements from users,
-     and would thus be able able to deduce correctness properties faster. Below
-     is the paper which we published at HCOMP, the Conference on Human
-     Computation and Crowdsourcing in 2019.</p>
+     where users reasoned about short iterative programs, with the goal of
+     crowdsourcing player-discovered invariants, and using them to prove
+     correctness properties about the programs in the game.
+     Below is the paper which we published at HCOMP, the Conference on
+     Human Computation and Crowdsourcing, in 2019.</p>
 
-     <a href="https://www.ccs.neu.edu/home/pete/pub/hcomp-2019.pdf" target="_blank">
+     <a href="https://www.ccs.neu.edu/home/pete/pub/hcomp-2019.pdf"
+        target="_blank">
      HCOMP Paper
      </a>
 
-
+    <h3> Research during the Pandemic </h3>
+    <p> We didn't get a paper out of it, but this project means just as much to
+    me as my more 'official' ones. I love finite-state automata, and early in
+    2020 began a system to
+    simulate running them as a passion project. I got the thing working,
+    and was able to convert grammars (REs, CFGs) into machines (DFAs, NFAs,
+    PDAs), and had minimization, and machine operations like intersection and
+    union and it felt like a cool project, but beyond my own playing I had
+    nothing really to do with it. </p>
+    <p> Enter Jack Bastian, my long-time high school friend, who had gotten into
+    data science. He sent me a paper that he had found where a team leveraged
+    a DFA to generate map-reduce style programs or, 'features', which were then
+    used to train a model to predict categories of values in the dataset.
+    He handled the ML stuff and I generated the features, and it was fun to repeat
+    the work of others -- that's science, right? <a href="https://github.com/bboskin/Log-Data-Feature-Gen"
+       target="_blank">Here's</a> our fairly chaotic GitHub
+    repo if you want to check it out.
+    </p>
     </Layout>
   )
 }

@@ -4,10 +4,12 @@ import SiteNav from './navbar'
 import {
   container,
   heading,
+  background,
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children}) => {
   return (
+    <div className={background}>
     <div className={container}>
     <SiteNav> </SiteNav>
     <main>
@@ -15,6 +17,7 @@ const Layout = ({ pageTitle, children}) => {
       {children}
     </main>
     <SiteNav> </SiteNav>
+    </div>
     </div>
   )
 }

@@ -6,9 +6,10 @@ import {
   navLinkText
 } from './layout.module.css'
 
+import { item } from './item.module.css'
 const SiteNav = ({ pageTitle, children}) => {
   return (
-    <nav>
+    <nav className={item}>
       <ul className={navLinks}>
         <li className={navLinkItem}>
          <Link to="/" className={navLinkText}>

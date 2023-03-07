@@ -18,6 +18,7 @@ import {
  container,
 } from './pic_grid.module.css'
 
+import { item } from './item.module.css'
 const PicGrid = () => {
   return (
     <div className={container}>

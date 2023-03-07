@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-
-const Space = () => {
+import { item } from './item.module.css'
+const SpaceItem = () => {
   return (
     <iframe
       style={{border: 0}, {width: 100}, {height: 120}}
@@ -10,6 +10,14 @@ const Space = () => {
       Depression Cave Part 2 by Ben Boskin
       </a>
     </iframe>
+  )
+}
+
+const Space = () => {
+  return (
+    <div className={item}>
+    <SpaceItem> </SpaceItem>
+    </div>
   )
 }
 

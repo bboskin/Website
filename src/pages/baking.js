@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
-
+import { picture } from '../components/picture.module.css'
 // Step 2: Define your component
 const BakingPage = () => {
   return (
@@ -15,7 +15,7 @@ const BakingPage = () => {
       turn my life upside-down, which it did. The hours,
       the tangibility of the results of my labor, combined with the
       crazy kooks I worked with, showed me a life very different than
-      the one I had known as a student.
+      the one I had known as an academic.
       </p>
 
       <p> At my first baking job, in Somerville, MA, I got
@@ -30,18 +30,19 @@ const BakingPage = () => {
       Here's a picture of some of my co-workers and I from that first job at
       Forge Baking Company.
       </p>
-      <StaticImage
+      <StaticImage className={picture}
         src="../images/forge_fam.jpeg"
         alt="Syd, you fucked up"
+        width="500"
       />
 
       <p>
-      ....and here are some beautiful, raw croissants I made one day
+      ....and here are some beautiful, raw croissants I made one day at work!
       </p>
-      <StaticImage
+      <StaticImage className={picture}
         src="../images/croissants.jpeg"
         alt="overproofed"
-        width="500"
+        width="400"
       />
       <p> Finally, I've refined an at-home croissant recipe which
       I've made a few times, adapting from the Forge recipe (don't tell Jen!).
@@ -49,7 +50,8 @@ const BakingPage = () => {
       it's just a Racket script with a function that gives you a recipe
       if you tell it how many batons you want to make. I recommend
       mixing one baton at a time if you are using a standard home KitchenAid.
-      Here you go, have fun! </p>
+      If someone ever reaches out to me saying they want a full recipe with
+      instructions then I will make one. Here you go, have fun! </p>
       <a href='../files/croissants.rkt' download>Click to download "recipe"!</a>
 
     </Layout>

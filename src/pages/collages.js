@@ -22,12 +22,12 @@ const CollagePage = () => {
      collages was cemented as "cut/glue now, think/interpret later".
      Similarly to how dreams are only interpreted after-the-fact, I enjoyed
      the flurry of making a collage, allowing myself to make an absolute mess
-     while I followed an unquestioned instinct that remained largely in my
+     while I followed an unquestioned instinct that remains largely in my
      subconscious. Then, looking on the image created in that state,
-     looking on it as if with fresh eyes, I enjoy seeing what is depicted,
+     as if with fresh eyes, I enjoy seeing what is depicted,
      often surprised by how on-the-nose I have described a situation I found
-     myself in, or surprised that I have unintentionally represented
-     something I'd been thinking about.
+     myself in, or surprised that I have unintentionally represented something
+     on my mind.
      </p>
 
      <p> I've been told (by my same friend Robert) that my collages often look
