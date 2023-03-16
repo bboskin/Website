@@ -9,11 +9,10 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Welcome!">
     <p> Thanks for coming to my website! I have
-    some hobbies, and have had a few career paths, and I talk about/show them here. I
-    hope you enjoy!
+    some hobbies, and have had a few career paths, and I talk about/show them here.
     </p>
     <p>Here's a pretty nice picture of me, the only headshot I've ever had taken.
-    It's a few years oldl, so looking at him now I kinda have no idea what he's thinking, but he
+    It's a few years old, so looking at him now I kinda have no idea what he's thinking, but he
     looks a lot like me so hopefully that gives you an idea. </p>
       <StaticImage className={picture}
         alt="Oops."
