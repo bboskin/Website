@@ -36,7 +36,7 @@ const RandomPage = () => {
      <h4> Therapy is legit </h4>
      <p>
      I've been seeing a therapist, which if you know me well you probably know.
-     Her name is Cari Kaufman, and she's fucking awesome and is the absolute homie. If
+     Her name is Cari Kaufman, and she's really great. If
      you're in the Bay Area and are looking to start talking to someone,
      I couldn't reccommend her more highly. Idk if she's taking clients right
      now, obviously, because we don't really talk about that, but here's her
@@ -46,15 +46,12 @@ const RandomPage = () => {
      Also her site has these cool shapes (I think they are meant to be piles
      of rocks but it's pretty abstract, see for yourself) that change slightly
      throughout the website, and given their respective contexts the arrangements
-     can be pretty mind-blowing. TL;DR the site
-     is worth a visit.
+     can be pretty mind-blowing. TL;DR the site is worth a visit.
      </p>
 
      <a href="https://www.carikaufman.com/" target="_blank">
      Cari's page
      </a>
-
-     <p> TODO leave me a message! </p>
 
     </Layout>
   )
